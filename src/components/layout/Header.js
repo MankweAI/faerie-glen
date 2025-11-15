@@ -1,4 +1,6 @@
 // src/components/Header.js
+"use client"; // ⚠️ Required for useState and hooks
+
 import { PhoneIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 
@@ -30,7 +32,6 @@ export default function Header() {
               className="relative text-brand-dark font-semibold hover:text-brand-blue transition"
             >
               {link}
-              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-brand-blue transition-all group-hover:w-full"></span>
             </a>
           ))}
         </nav>
