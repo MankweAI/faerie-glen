@@ -18,7 +18,7 @@ export default function HeroSection() {
           className="h-full w-full"
           style={{
             background:
-              "linear-gradient(90deg, #1E4068 0%, #1E4068 10%, #1A3D60 30%, transparent 100%)",
+              "linear-gradient(90deg, #1E4068 0%, #1E4068 0%, #1A3D60 10%, transparent 100%)",
           }}
         />
       </div>
