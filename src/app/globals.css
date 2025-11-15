@@ -1,7 +1,7 @@
-@import "tailwindcss";
-@tailwind base;
+/* src/app/globals.css */
+@import "tailwindcss/preflight"; /* Replaces @tailwind base */
+@import "tailwindcss/utilities"; /* Replaces components and utilities */
 
-/* Your existing styles */
 :root {
   --foreground-rgb: 15, 23, 42; /* Slate 900 */
   --background-rgb: 248, 250, 252; /* Slate 50 */
@@ -18,6 +18,7 @@ html {
 }
 
 @layer utilities {
+  /* Overlay to make text readable over the video */
   .video-overlay {
     background: linear-gradient(
       to bottom,
@@ -25,6 +26,7 @@ html {
       rgba(15, 23, 42, 0.7)
     );
   }
+  
   .text-balance {
     text-wrap: balance;
   }
