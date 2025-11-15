@@ -33,7 +33,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-20 w-full px-4 sm:px-6 md:px-12 flex flex-col justify-center py-8 sm:py-12">
         <div className="max-w-2xl mx-auto sm:mx-0">
-          <h1 className="text-white font-extrabold text-2xl xs:text-3xl sm:text-4xl md:text-6xl leading-snug sm:leading-tight drop-shadow-xl text-center sm:text-left">
+          <h1 className="text-white font-extrabold text-5xl xs:text-5xl sm:text-6xl md:text-7xl leading-snug sm:leading-tight drop-shadow-xl text-center sm:text-left">
             Blocked Drain Specialists
             <br />
             <span className="text-blue-300 text-xl xs:text-2xl sm:text-3xl md:text-4xl">
