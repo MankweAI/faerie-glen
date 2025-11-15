@@ -1,6 +1,5 @@
-/* src/app/globals.css */
-@import "tailwindcss/preflight"; /* Replaces @tailwind base */
-@import "tailwindcss/utilities"; /* Replaces components and utilities */
+@import "tailwindcss";
+
 
 :root {
   --foreground-rgb: 15, 23, 42; /* Slate 900 */
