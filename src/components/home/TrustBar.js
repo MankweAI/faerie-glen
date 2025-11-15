@@ -16,7 +16,7 @@ export default function TrustBar() {
     {
       animation: starsAnimation,
       text: "5-Star Rated",
-      sub: "500+ Reviews",
+      sub: "100+ Reviews",
       glow: "shadow-[0_0_32px_10px_#FFD60033]", // Yellow, subtle
     },
     {
@@ -28,7 +28,7 @@ export default function TrustBar() {
     {
       animation: expertAnimation,
       text: "Local Experts",
-      sub: "Randburg Based",
+      sub: "Faerie Glen Based",
       glow: "shadow-[0_0_32px_10px_#22c55e33]", // Green, subtle
     },
   ];
